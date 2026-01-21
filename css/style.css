@@ -451,3 +451,41 @@ footer {
 .footer-social-media p {
   margin-bottom: 16px;
 }
+
+.subscription-form {
+  width: 453px;
+  height: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+}
