@@ -226,40 +226,36 @@ button:focus {
   overflow: hidden;
 }
 
-.features-item::before {
-  content: "";
-  display: block;
+.list .features-item + .features-item {
+  margin-left: 24px;
+}
+
+.features-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border: 1px solid var(--light-slate);
   border-radius: 4px;
   width: 264px;
   height: 112px;
 
   background: var(--cloud);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.icon-antenna::before {
-  background-image: url(../images/icons/antenna.svg);
+.features-icon svg {
+  display: block;
 }
 
-.icon-clock::before {
-  background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
-}
-
-.list .features-item + .features-item {
-  margin-left: 24px;
-}
-
-h3 {
+.h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
