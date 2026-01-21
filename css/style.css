@@ -453,13 +453,17 @@ footer {
 }
 
 .subscription-form {
+  display: flex;
   width: 453px;
   height: 80px;
+  margin-left: 80px;
 }
 
 .form {
   display: flex;
   flex-direction: row;
+  align-items: end;
+  gap: 24px;
 }
 
 .form-label {
@@ -470,6 +474,8 @@ footer {
 .form-input {
   width: 264px;
   height: 40px;
+  margin-top: 23px;
+
   border: 1px solid var(--white);
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -488,4 +494,8 @@ footer {
   padding: 8px 24px;
   width: 165px;
   height: 40px;
+}
+
+.footer-button::after {
+  background-image: url(../images/icons/subscribe.svg);
 }
