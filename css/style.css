@@ -487,6 +487,15 @@ footer {
   background-color: var(--navy-blue);
 }
 
+.form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+
+  padding-left: 15px;
+}
+
 .footer-button {
   display: flex;
   align-items: center;
