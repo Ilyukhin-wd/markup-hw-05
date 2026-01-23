@@ -505,9 +505,9 @@
             </li>
           </ul>
         </div>
-        <div class="subscription-form">
-          <form class="form">
-            <label class="form-label">
+        <div class="footer-form">
+          <form class="subscription-form">
+            <label>
               Subscribe
               <input
                 class="form-input"
@@ -533,9 +533,54 @@
             <use href="./images/icons/sprite1.svg#icon-close"></use>
           </svg>
         </button>
-        <label class="modal-label">
-          Leave your contacts and we will call you back
-        </label>
+        <p>Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label>
+            Name
+            <input
+              class="name-input"
+              type="text"
+              name="username"
+              placeholder=""
+            />
+          </label>
+          <label>
+            Phone
+            <input
+              class="phone-input"
+              type="tel"
+              name="phone-number"
+              placeholder=""
+            />
+          </label>
+          <label>
+            Email
+            <input
+              class="email-input"
+              type="email"
+              name="email"
+              placeholder=""
+            />
+          </label>
+          <label>
+            Comment
+            <textarea
+              class="textarea-comment"
+              name="comment"
+              rows=""
+              placeholder="Text input"
+            >
+            </textarea>
+            <input
+              class="privacy-policy"
+              type="checkbox"
+              name="privacy-policy"
+              value="I accept the terms and conditions of the Privacy Policy"
+            />
+            I accept the terms and conditions of the Privacy Policy
+          </label>
+          <button class="modal-send-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
   </body>

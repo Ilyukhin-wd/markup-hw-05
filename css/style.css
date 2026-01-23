@@ -463,23 +463,18 @@ footer {
   margin-bottom: 16px;
 }
 
-.subscription-form {
+.footer-form {
   display: flex;
   width: 453px;
   height: 80px;
   margin-left: 80px;
 }
 
-.form {
+.subscription-form {
   display: flex;
   flex-direction: row;
   align-items: end;
   gap: 24px;
-}
-
-.form-label {
-  display: flex;
-  flex-direction: column;
 }
 
 .form-input {
