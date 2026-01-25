@@ -592,19 +592,17 @@ footer {
   display: flex;
   margin-top: 16px;
   padding-left: 24px;
-  gap: 8px;
 }
 
-.modal-form {
+.modal-form:nth-last-child {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
 
-  border-radius: 4px;
   width: 360px;
   height: 336px;
+  gap: 8px;
 }
 
 .modal-form > label {
@@ -645,14 +643,14 @@ footer {
 .modal-checkbox {
   width: 360px;
   height: 16px;
-  border-radius: 2px;
-  margin-top: 8px;
 
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
+
+  margin-top: 16px;
 }
 
 .privacy-policy {
@@ -663,7 +661,6 @@ footer {
 }
 
 .modal-checkbox > p {
-  font-weight: 400;
   font-size: 12px;
 
   line-height: 1.16667;
@@ -677,6 +674,7 @@ footer {
   text-decoration-skip-ink: none;
   color: var(--iris);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .modal-send-button {
