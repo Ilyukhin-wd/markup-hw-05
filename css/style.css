@@ -615,6 +615,7 @@ footer {
 
 input {
   width: 360px;
+  height: 40px;
   padding: 3px 0px;
   border-radius: 4px;
 
@@ -622,10 +623,22 @@ input {
   color: var(--light-slate);
 }
 
-.name-input,
-.phone-input,
-.email-input {
-  height: 40px;
+.form-field {
+  position: relative;
+}
+
+.icon-person,
+.icon-phone,
+.icon-email {
+  display: inline-block;
+  width: 18px;
+  height: 24px;
+
+  position: absolute;
+  top: 7px;
+  left: 15px;
+
+  color: var(--navy-blue);
 }
 
 .textarea-comment {
