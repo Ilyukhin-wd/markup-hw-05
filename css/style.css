@@ -628,9 +628,7 @@ input:focus {
   outline-color: var(--iris);
 }
 
-input:focus ~ .icon-person,
-input:focus ~ .icon-phone,
-input:focus ~ .icon-email {
+input:focus ~ .input-icon {
   fill: var(--iris);
 }
 
@@ -638,9 +636,7 @@ input:focus ~ .icon-email {
   position: relative;
 }
 
-.icon-person,
-.icon-phone,
-.icon-email {
+.input-icon {
   display: inline-block;
   width: 18px;
   height: 24px;
