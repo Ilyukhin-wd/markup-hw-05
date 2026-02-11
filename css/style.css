@@ -641,7 +641,7 @@ input:focus ~ .input-icon {
   width: 18px;
   height: 24px;
   position: absolute;
-  top: 7px;
+  top: 25px;
   left: 15px;
 
   color: var(--navy-blue);
