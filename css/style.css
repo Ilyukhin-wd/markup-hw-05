@@ -481,6 +481,7 @@ footer {
   width: 264px;
   height: 40px;
   margin-top: 23px;
+  padding: 0;
 
   border: 1px solid var(--white);
   border-radius: 4px;
@@ -653,9 +654,9 @@ input:focus ~ .input-icon {
   border: 1px solid var(--navy-blue-modal);
   width: 360px;
   height: 120px;
+  border-radius: 4px;
 
-  padding-left: 15px;
-  padding-top: 7px;
+  padding: 7px 15px;
 
   resize: none;
 
