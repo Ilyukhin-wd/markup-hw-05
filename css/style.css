@@ -595,7 +595,7 @@ footer {
   padding-left: 24px;
 }
 
-.modal-form:nth-last-child {
+.modal-form:nth(:last-child) {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
