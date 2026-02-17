@@ -510,7 +510,9 @@ footer {
 }
 
 .footer-button::after {
-  content: "";
+  width: 24px;
+  height: 20px;
+
   background-image: url(../images/icons/subscribe.svg);
 }
 
