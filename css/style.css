@@ -88,11 +88,6 @@ button:focus {
   flex-wrap: wrap;
 }
 
-.header {
-  border-bottom: 1px solid var(--cornflower);
-  align-items: center;
-}
-
 .wrapper {
   display: flex;
   flex-direction: row;
